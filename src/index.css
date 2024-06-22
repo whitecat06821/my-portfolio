@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .background-project {
-  background-image: url(/src/assets/noise.51a05f55.png);
+  background-image: url(./assets/noise.51a05f55.png);
   background-size: 200px 200px;
   background-position: 0 0;
   background-color: rgb(24 24 27 / 1);
