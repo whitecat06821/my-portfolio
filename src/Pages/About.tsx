@@ -15,7 +15,7 @@ const About = () => {
       </Helmet>
       <MainSection
         name={
-          <div className="font-extrabold text-5xl md:text-7xl lg:text-8xl mb-4">
+          <div className="font-extrabold text-5xl md:text-7xl lg:text-8xl mb-4 mt-12">
             <span>
               Little Bit
               <br />
