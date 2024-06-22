@@ -21,7 +21,7 @@ const MainSection = ({
   socialIcons,
 }: Iprops) => {
   return (
-    <section className="flex flex-col items-center lg:flex-row-reverse">
+    <section className="flex flex-col mt-6 lg:flex-row-reverse">
       {lottie}
       <div className="flex-1">
         {name}

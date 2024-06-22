@@ -28,10 +28,10 @@ const Navbar = ({}: Iprops) => {
           <RxHamburgerMenu size={25} />
         </div>
         <div className={`${isShow && "hidden"} w-full lg:block lg:w-auto`}>
-          <ul className="my-4 p-4 lg:space-x-10 mr-3 bg-gray-400 rounded font-light lg:flex lg:bg-transparent">
+          <ul className="p-4 lg:space-x-10 mr-3 bg-gray-400 rounded font-light lg:flex lg:bg-transparent">
             {NAV_ITEMS.map((item, index) => (
               <NavLink
-                className={`block p-2 z-10 hover:bg-gray-700 rounded text-lg dark:hover:text-white active:scale-75 ${
+                className={`block p-2 z-10 hover:bg-gray-700 rounded text-md dark:hover:text-white active:scale-75 text-md ${
                   (currentPath === "/" || currentPath === "/about") &&
                   (index === 3 || index === 4)
                     ? "text-zinc-800 hover:bg-gray-800 hover:text-white"

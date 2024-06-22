@@ -4,7 +4,7 @@ import MainSection from "../components/MainSection";
 import { PARAGRAPH_HOME } from "../components/data";
 import Button from "../components/ui/Button";
 import { NavLink } from "react-router-dom";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 const typewriterProps = {
   words: ["Front End Developer"],
@@ -24,7 +24,7 @@ const Home = () => {
       </Helmet>
       <MainSection
         name={
-          <h1 className="font-extrabold text-5xl md:text-7xl lg:text-8xl mb-1">
+          <h1 className="font-extrabold text-5xl md:text-7xl lg:text-8xl mb-1 mt-12">
             Ali Ahmed.
           </h1>
         }

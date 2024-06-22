@@ -8,8 +8,8 @@ const Skills = () => {
         <meta charSet="utf-8" />
         <title>Skills</title>
       </Helmet>
-      <h3 className="font-bold text-4xl inline-block">Skills</h3>
-      <p className="font-normal md:text-lg max-w-[750px] text-gray-400 dark:text-zinc-800 tracking-wide mb-4">
+      <h3 className="font-extrabold text-2xl md:text-3xl lg:text-4xl mb-6">Skills</h3>
+      <p className="font-light md:text-xl max-w-[620px] text-gray-400 dark:text-zinc-800 tracking-widest mb-4">
         I use this Skills in most of my projects.
       </p>
       <div className="flex flex-wrap gap-4 mb-4">
@@ -27,7 +27,7 @@ const Skills = () => {
         ))}
       </div>
       <h3 className=" font-bold text-4xl inline-block">Tools</h3>
-      <p className="font-normal md:text-lg max-w-[750px] text-gray-400 dark:text-zinc-800 tracking-wide mb-4">
+      <p className="font-light md:text-xl max-w-[620px] text-gray-400 dark:text-zinc-800 tracking-widest mb-4">
         I use this tool in most of my projects.
       </p>
       <div className="flex flex-wrap gap-4">

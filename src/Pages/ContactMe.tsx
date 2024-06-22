@@ -20,7 +20,7 @@ const ContactMe = () => {
       </Helmet>
       <MainSection
         name={
-          <h3 className="flex gap-2 items-center font-extrabold text-3xl md:text-4xl lg:text-5xl mb-4">
+          <h3 className="flex items-center gap-x-2 font-extrabold text-2xl md:text-3xl lg:text-4xl mb-6">
             <FaMessage className="-mb-2" /> Contact Me
           </h3>
         }

@@ -10,7 +10,7 @@ const Projects = ({}: Iprops) => {
         <meta charSet="utf-8" />
         <title>Project</title>
       </Helmet>
-      <h3 className="font-extrabold text-3xl md:text-4xl lg:text-5xl mb-6">
+      <h3 className="font-extrabold text-2xl md:text-3xl lg:text-4xl mb-6">
         My Projects
       </h3>
       <p className="font-light md:text-xl max-w-[620px] text-gray-400 mb-6 dark:text-zinc-800 tracking-widest">

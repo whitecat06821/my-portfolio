@@ -3,7 +3,7 @@ import { DiReact } from "react-icons/di";
 
 export default function Footer() {
   return (
-    <div className="lg:flex justify justify-between border-t-2 mt-10 py-20 b-color ">
+    <div className="lg:flex justify justify-between border-t-2 mt-10 py-20 footer-border ">
       <div className="flex items-center">
         <p className="font-normal text-lg">Built With :</p>
         <p className="font-light text-lg px-1">react</p>
