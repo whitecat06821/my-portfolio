@@ -243,7 +243,7 @@ export const PROJECTS = [
       "- Ensured perfect responsiveness across all screen sizes.",
     ],
     image: portoApp,
-    vercel: "https://my-portofolio-one-pearl.vercel.app/",
+    vercel: "https://portfolio-wine-one-80.vercel.app/",
     github: "https://github.com/aliahmed200/portfolio",
   },
 ];
