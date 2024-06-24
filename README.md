@@ -8,7 +8,7 @@
 
 ### a website in vercel
 
-project live: [https://my-portofolio-git-master-alis-projects-1be8f768.vercel.app/](https://my-portofolio-git-master-alis-projects-1be8f768.vercel.app/)
+project live: [https://portfolio-three-sandy-24.vercel.app/](https://portfolio-three-sandy-24.vercel.app/)
 
 ## react.js resume builder 🌟
 
