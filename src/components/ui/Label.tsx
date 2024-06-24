@@ -7,10 +7,7 @@ interface Iprops {
 
 const Label = ({ htmlFor, children }: Iprops) => {
   return (
-    <label
-      className="block text-white dark:text-zinc-800 text-sm font-bold mb-2"
-      htmlFor={htmlFor}
-    >
+    <label className="block text-sm font-bold mb-2" htmlFor={htmlFor}>
       {children}
     </label>
   );

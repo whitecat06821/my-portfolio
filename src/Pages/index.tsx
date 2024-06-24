@@ -31,9 +31,9 @@ const Home = () => {
         TypewriterProps={typewriterProps}
         paragraph={PARAGRAPH_HOME}
         btn={
-          <Button width="w-fit">
-            <NavLink to={"/contactme"}>Contact Me</NavLink>
-          </Button>
+          <NavLink to={"/contactme"}>
+            <Button width="w-fit">Contact Me</Button>
+          </NavLink>
         }
         lottie={
           <div className="flex-1 mb-3 dark:bg-none dark:bg-green-300 bg-gradient-to-br from-gray-50 via-gray-200 to-gray-300 lg:-mt-40 rounded-b-xl">

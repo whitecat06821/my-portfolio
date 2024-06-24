@@ -12,6 +12,7 @@ import { Helmet } from "react-helmet";
 
 const ContactMe = () => {
   const [state, handleSubmit] = useForm("mjvnlzed");
+
   return (
     <>
       <Helmet>
@@ -82,7 +83,7 @@ const ContactMe = () => {
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex justify-center items-center w-16 h-16 text-lg bg-transparent font-semibold py-2 px-4 border hover:border-transparent rounded duration-500 hover:bg-white text-white hover:text-zinc-800 border-zinc-400 dark:hover:bg-zinc-800 dark:text-zinc-800 dark:hover:text-white dark:border-zinc-800"
+                className="flex justify-center items-center w-16 h-16 text-lg bg-transparent font-semibold py-2 px-4 border hover:border-transparent rounded duration-500 hover:bg-white hover:text-zinc-800 border-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-white dark:border-zinc-800"
               >
                 {item.icon}
               </a>

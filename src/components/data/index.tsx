@@ -27,8 +27,15 @@ import postman from "../../assets/skills images/download (2).png";
 import figma from "../../assets/skills images/download (3).png";
 import chrome from "../../assets/skills images/chrome.jpeg";
 import typeScript from "../../assets/skills images/typescript.svg";
+import {
+  Inavitems,
+  Iprojects,
+  Iskills,
+  Isocialmedia,
+  Itools,
+} from "../interfaces";
 
-export const NAV_ITEMS = [
+export const NAV_ITEMS: Inavitems[] = [
   {
     text: "Home",
     to: "/",
@@ -51,7 +58,7 @@ export const NAV_ITEMS = [
   },
 ];
 
-export const SOCIAL_MEDIA = [
+export const SOCIAL_MEDIA: Isocialmedia[] = [
   {
     href: "https://www.facebook.com/profile.php?id=100069281631238",
     icon: <FaFacebook />,
@@ -78,12 +85,12 @@ export const SOCIAL_MEDIA = [
   },
 ];
 
-export const PARAGRAPH_HOME =
-  "I’m a passionate Front End developer with experience developing FrontEnd web applications with React.js I am strongly interested inlearning new technologies and implementing them in my projects. I'm aself-motivated and hardworking individual who is always ready to learnnew things and work in a team.";
-export const PARAGRAPH_ABOUT =
+export const PARAGRAPH_HOME: string =
+  "I’m a passionate Front End developer with experience developing FrontEnd web applications with React.js I am strongly interested in learning new technologies and implementing them in my projects. I'm aself-motivated and hardworking individual who is always ready to learn new things and work in a team.";
+export const PARAGRAPH_ABOUT: string =
   'Hello! I\'m Ali, a front-end developer from Egypt. I love creating web applications with React, and I\'m currently studying BackEnd. "I\'m not sure if it\'s "front-end", "frontend", or "front end", but it doesn\'t really matter😅"';
 
-export const SKILLS = [
+export const SKILLS: Iskills[] = [
   {
     src: html,
     alt: "html",
@@ -161,7 +168,7 @@ export const SKILLS = [
   },
 ];
 
-export const TOOLS = [
+export const TOOLS: Itools[] = [
   {
     src: vscode,
     alt: "vscode",
@@ -184,7 +191,7 @@ export const TOOLS = [
   },
 ];
 
-export const PROJECTS = [
+export const PROJECTS: Iprojects[] = [
   {
     id: 1,
     name: "Fresh Cart",
@@ -197,7 +204,6 @@ export const PROJECTS = [
       "Made the website work smoothly, like it’s all on one page (SPA)",
     ],
     image: freshApp,
-    vercel: "",
     github: "https://github.com/aliahmed200/E-commerce",
   },
   {
@@ -212,7 +218,6 @@ export const PROJECTS = [
       "Implemented a Single Page Application (SPA).",
     ],
     image: noteApp,
-    vercel: "",
     github: "https://github.com/aliahmed200/note-app",
   },
   {
@@ -243,7 +248,7 @@ export const PROJECTS = [
       "- Ensured perfect responsiveness across all screen sizes.",
     ],
     image: portoApp,
-    vercel: "https://portfolio-wine-one-80.vercel.app/",
+    vercel: "https://portfolio-three-sandy-24.vercel.app/",
     github: "https://github.com/aliahmed200/portfolio",
   },
 ];
