@@ -7,6 +7,8 @@ import noteApp from "../../assets/projects/note-app.png";
 import freshApp from "../../assets/projects/fresh-app.png";
 import portoApp from "../../assets/projects/porto-app.png";
 import cvApp from "../../assets/projects/cv-app.png";
+import Exclucive from "../../assets/projects/screencapture-e-commerce-v1-ochre-vercel-app-2024-07-27-16_20_53.png";
+import cyborg from "../../assets/projects/screencapture-cyborg-mu-vercel-app-2024-07-27-16_27_43.png";
 
 import html from "../../assets/skills images/html-5.png";
 import css from "../../assets/skills images/css-3.png";
@@ -219,6 +221,7 @@ export const PROJECTS: Iprojects[] = [
     ],
     image: noteApp,
     github: "https://github.com/aliahmed200/note-app",
+    vercel: "https://note-app-my-new-branch.vercel.app/login",
   },
   {
     id: 3,
@@ -250,5 +253,35 @@ export const PROJECTS: Iprojects[] = [
     image: portoApp,
     vercel: "https://portfolio-three-sandy-24.vercel.app/",
     github: "https://github.com/aliahmed200/portfolio",
+  },
+  {
+    id: 5,
+    name: "Exclusive",
+    description: [
+      "Created a cool online shop using React.js",
+      "Connected it smoothly to Api using Axios.",
+      "Made sure all the info entered is correct and safe",
+      "Used Formik to make signing up and buying stuff easy",
+      "Designed a simple cart page so you can see what you’re buying",
+      "Made the website work smoothly, like it’s all on one page (SPA)",
+    ],
+    image: Exclucive,
+    github: "https://github.com/aliahmed200/E-commerce-ts",
+    vercel: "https://e-commerce-v1-ochre.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "CYBORG",
+    description: [
+      "Developed a dynamic gaming website using React.js, TypeScript, and Tailwind CSS",
+      "Created core pages including Home, Streams, Profile, Details, and Browse for a comprehensive user experience",
+      "Implemented responsive design to ensure optimal performance across various devices and screen sizes",
+      "Utilized react-router-dom for efficient single-page application navigation and seamless transitions between pages",
+      "Incorporated perfect-pixel to maintain pixel-perfect design accuracy across different viewports",
+      "Designed and integrated a visually appealing and functional Navbar with search functionality and user profile access",
+    ],
+    image: cyborg,
+    vercel: "https://cyborg-mu.vercel.app/",
+    github: "https://github.com/aliahmed200/cyborg",
   },
 ];

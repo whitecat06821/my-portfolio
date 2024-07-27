@@ -30,7 +30,7 @@ const Navbar = () => {
             {NAV_ITEMS.map((item, index) => (
               <NavLink
                 key={index}
-                className={`block p-2 z-10 hover:bg-gray-700 rounded text-md dark:hover:text-white active:scale-75 text-md ${
+                className={`block p-2 z-10 hover:bg-gray-700 rounded text-md dark:hover:text-white active:scale-75 ${
                   (currentPath === "/" || currentPath === "/about") &&
                   (index === 3 || index === 4)
                     ? "text-zinc-800 hover:bg-gray-800 hover:text-white"
