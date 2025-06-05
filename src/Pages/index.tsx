@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const typewriterProps = {
-  words: ["Front End Developer"],
+  words: ["Full Stack Developer"],
   loop: Infinity,
   cursor: true,
   cursorStyle: "|",
@@ -25,7 +25,7 @@ const Home = () => {
       <MainSection
         name={
           <h1 className="font-extrabold text-5xl md:text-7xl lg:text-8xl mb-1 mt-12">
-            Ali Ahmed.
+            Benjamin
           </h1>
         }
         TypewriterProps={typewriterProps}

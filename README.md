@@ -12,7 +12,7 @@ project live: [https://portfolio-three-sandy-24.vercel.app/](https://portfolio-t
 
 ## react.js resume builder 🌟
 
-- choose the template 
+- choose the template
 - Edit the `data.js` file with your personal information and delete the topic if you need in the resume template.
 - Generate a CV in PDF format .
 

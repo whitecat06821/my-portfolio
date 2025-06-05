@@ -12,7 +12,7 @@ export default function Footer() {
         <RxVercelLogo />
       </div>
       <div className="font-semibold text-md">
-        Copyright © Ali Ahmed 2024 All rights Reserved
+        Copyright © Benjamin 2025 All rights Reserved
       </div>
     </div>
   );

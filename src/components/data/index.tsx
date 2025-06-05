@@ -22,13 +22,28 @@ import git from "../../assets/skills images/icons8-git-48.png";
 import npm from "../../assets/skills images/icons8-npm-48.png";
 import vercel from "../../assets/skills images/vercel.256x225.png";
 import github from "../../assets/skills images/social.png";
-import lottie from "../../assets/skills images/download.png";
+import lottie from "../../assets/skills images/lottie.png";
 import reacticons from "../../assets/skills images/react-icons.svg";
-import vscode from "../../assets/skills images/download (1).png";
-import postman from "../../assets/skills images/download (2).png";
-import figma from "../../assets/skills images/download (3).png";
+import cursor from "../../assets/skills images/cursor.jpg";
+import vscode from "../../assets/skills images/vscode.png";
+import msVscode from "../../assets/skills images/ms_vs.jpg";
+import postman from "../../assets/skills images/postman.png";
+import figma from "../../assets/skills images/figma.png";
 import chrome from "../../assets/skills images/chrome.jpeg";
 import typeScript from "../../assets/skills images/typescript.svg";
+import asp from "../../assets/skills images/ASP.NET.png";
+import postgresql from "../../assets/skills images/postgresql.png";
+import openAi from "../../assets/skills images/openai.png";
+import pinecone from "../../assets/skills images/pinecone.png";
+import langchain from "../../assets/skills images/langchain.png";
+import chatbot from "../../assets/skills images/chatbot.png";
+import python from "../../assets/skills images/python.jpg";
+import nodejs from "../../assets/skills images/nodejs.png";
+import mysql from "../../assets/skills images/mysql.png";
+import mongodb from "../../assets/skills images/mongodb.png";
+import csharp from "../../assets/skills images/csharp.png";
+import zapier from "../../assets/skills images/zapier.png";
+import make from "../../assets/skills images/make.png";
 import {
   Inavitems,
   Iprojects,
@@ -66,19 +81,19 @@ export const SOCIAL_MEDIA: Isocialmedia[] = [
     icon: <FaFacebook />,
   },
   {
-    href: "https://github.com/aliahmed200",
+    href: "https://github.com/wcat06821",
     icon: <FaGithub />,
   },
   {
-    href: "https://t.me/aliahmed_2000",
+    href: "https://t.me/wcat06821",
     icon: <SiTelegram />,
   },
   {
-    href: "mailto:aliahmed60345@gmail.com",
+    href: "wcat06821@gmail.com",
     icon: <SiGmail />,
   },
   {
-    href: "whatsapp://send?phone=+201096929238",
+    href: "https://wa.me/6596669666",
     icon: <BsWhatsapp />,
   },
   {
@@ -88,9 +103,8 @@ export const SOCIAL_MEDIA: Isocialmedia[] = [
 ];
 
 export const PARAGRAPH_HOME: string =
-  "I’m a passionate Front End developer with experience developing FrontEnd web applications with React.js I am strongly interested in learning new technologies and implementing them in my projects. I'm aself-motivated and hardworking individual who is always ready to learn new things and work in a team.";
-export const PARAGRAPH_ABOUT: string =
-  'Hello! I\'m Ali, a front-end developer from Egypt. I love creating web applications with React, and I\'m currently studying BackEnd. "I\'m not sure if it\'s "front-end", "frontend", or "front end", but it doesn\'t really matter😅"';
+  "I'm a passionate Full Stack developer with rich experience developing web applications. I am strongly interested in learning new technologies and implementing them in my projects. I'm aself-motivated and hardworking individual who is always ready to learn new things and work in a team.";
+export const PARAGRAPH_ABOUT: string = `I'm a Full Stack Developer with extensive experience building scalable web applications. I also have a solid background in AI technologies, including Pinecone, Langchain, OpenAI, and chatbot development. I thrive on integrating smart, user-focused solutions with modern tech stacks.`;
 
 export const SKILLS: Iskills[] = [
   {
@@ -134,14 +148,79 @@ export const SKILLS: Iskills[] = [
     children: "redux",
   },
   {
+    src: asp,
+    alt: "ASP.NET",
+    children: "ASP.NET",
+  },
+  {
+    src: postgresql,
+    alt: "postgresql",
+    children: "PostgreSQL",
+  },
+  {
+    src: python,
+    alt: "python",
+    children: "Python",
+  },
+  {
+    src: nodejs,
+    alt: "nodejs",
+    children: "Node.js",
+  },
+  {
+    src: mysql,
+    alt: "mysql",
+    children: "MySQL",
+  },
+  {
+    src: mongodb,
+    alt: "mongodb",
+    children: "MongoDB",
+  },
+  {
+    src: csharp,
+    alt: "csharp",
+    children: "C#",
+  },
+  {
+    src: openAi,
+    alt: "openAi",
+    children: "OpenAI",
+  },
+  {
+    src: pinecone,
+    alt: "pinecone",
+    children: "Pinecone",
+  },
+  {
+    src: langchain,
+    alt: "langchain",
+    children: "Langchain",
+  },
+  {
+    src: chatbot,
+    alt: "chatbot",
+    children: "Chatbot",
+  },
+  {
+    src: zapier,
+    alt: "zapier",
+    children: "Zapier",
+  },
+  {
+    src: make,
+    alt: "make.com",
+    children: "Make.com",
+  },
+  {
     src: axios,
     alt: "axios",
-    children: "axios",
+    children: "Axios",
   },
   {
     src: git,
     alt: "git",
-    children: "git",
+    children: "Git",
   },
   {
     src: npm,
@@ -151,17 +230,17 @@ export const SKILLS: Iskills[] = [
   {
     src: vercel,
     alt: "vercel",
-    children: "vercel",
+    children: "Vercel",
   },
   {
     src: github,
     alt: "github",
-    children: "github",
+    children: "Github",
   },
   {
     src: lottie,
     alt: "lottie",
-    children: "lottie",
+    children: "Lottie",
   },
   {
     src: reacticons,
@@ -171,6 +250,16 @@ export const SKILLS: Iskills[] = [
 ];
 
 export const TOOLS: Itools[] = [
+  {
+    src: cursor,
+    alt: "cursor",
+    children: "Cursor",
+  },
+  {
+    src: msVscode,
+    alt: "MS Visual Studio",
+    children: "MS Visual Studio",
+  },
   {
     src: vscode,
     alt: "vscode",
@@ -202,8 +291,8 @@ export const PROJECTS: Iprojects[] = [
       "Connected it smoothly to Api using Axios.",
       "Made sure all the info entered is correct and safe",
       "Used Formik to make signing up and buying stuff easy",
-      "Designed a simple cart page so you can see what you’re buying",
-      "Made the website work smoothly, like it’s all on one page (SPA)",
+      "Designed a simple cart page so you can see what you're buying",
+      "Made the website work smoothly, like it's all on one page (SPA)",
     ],
     image: freshApp,
     github: "https://github.com/aliahmed200/E-commerce",
@@ -230,7 +319,7 @@ export const PROJECTS: Iprojects[] = [
       "Designed and developed a cv builder System using react and Tailwind CSS",
       "Users can select their preferred template.",
       "input their information, and generate a professional CV in PDF format.",
-      "It’s an easy-to-use tool for creating personalized resumes effortlessly",
+      "It's an easy-to-use tool for creating personalized resumes effortlessly",
     ],
     image: cvApp,
     vercel: "https://cv-builder-newversion.vercel.app/",
@@ -262,8 +351,8 @@ export const PROJECTS: Iprojects[] = [
       "Connected it smoothly to Api using Axios.",
       "Made sure all the info entered is correct and safe",
       "Used Formik to make signing up and buying stuff easy",
-      "Designed a simple cart page so you can see what you’re buying",
-      "Made the website work smoothly, like it’s all on one page (SPA)",
+      "Designed a simple cart page so you can see what you're buying",
+      "Made the website work smoothly, like it's all on one page (SPA)",
     ],
     image: Exclucive,
     github: "https://github.com/aliahmed200/E-commerce-ts",
@@ -281,7 +370,7 @@ export const PROJECTS: Iprojects[] = [
       "Designed and integrated a visually appealing and functional Navbar with search functionality and user profile access",
     ],
     image: cyborg,
-    vercel: "https://cyborg-mu.vercel.app/",
-    github: "https://github.com/aliahmed200/cyborg",
+    vercel: "https://wcat-portfolio.vercel.app/",
+    github: "https://github.com/wcat06821/wcat-portfolio",
   },
 ];
